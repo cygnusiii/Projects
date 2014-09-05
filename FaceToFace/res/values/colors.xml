@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_background">#774f99</color>
+    <color name="tab_highlight">#ffffff</color>
+    <color name="actionbar_text">#ffffff</color>
+    <color name="chat_background">#DADFEE</color>
+    <color name="textColor">#FFF</color>
+    <color name="textFieldColor">#000</color>
+    <color name="textShadow">#FFF</color>
+    <color name="listViewBg">#DADFEE</color>
+    <color name="blueLightColor">#8897BF</color>
+    <color name="blueMeduimColor">#5D6CA5</color>
+    <color name="blueDarkColor">#515F9F</color>
+    <color name="greenLightColor">#93ee73</color>
+    <color name="greenMeduimColor">#3bd217</color>
+    <color name="greenDarkColor">#2dae13</color>
+    <color name="redLightColor">#ee8385</color>
+    <color name="redMeduimColor">#e44c5a</color>
+    <color name="redDarkColor">#c52a15</color>
+    <color name="barDarkColor">#CECECE</color>
+    <color name="barMeduimColor">#DFDEE0</color>
+    <color name="barLightColor">#F2F2F2</color>
+
+</resources>

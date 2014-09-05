@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">Smart Home</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_setting">Setting</string>
+    <string name="version">Version 1.0</string>
+    <string name="language">Language</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="administrator">Administrator</string>
+     <string name="administrator_notify">Notifies from Administrator</string>
+    <string name="error_device">Device not register</string>
+	<string name="select_ringtone_type">Select ringtone type</string>
+    <string-array name="settings_name">
+        <item>Languages</item>
+        <item>Ringtones</item>
+    </string-array>
+    <string-array name="settings_image">
+        <item>@drawable/language_item</item>
+        <item>@drawable/ringtone_item</item>
+    </string-array>
+    <string-array name="language_name">
+        <item>English</item>
+        <item>Vietnamese</item>
+    </string-array>
+    <string-array name="language_code">
+        <item>en</item>
+        <item>vi</item>
+    </string-array>
+    <string-array name="language_image">
+        <item>@drawable/en</item>
+        <item>@drawable/vi</item>
+    </string-array>
+
+    <string name="select_ringtone">Select ringtone</string>
+    <string name="select_language">Select language</string>
+
+    <string-array name="ringtone_type_image">
+        <item>@drawable/call</item>
+        <item>@drawable/tab_message</item>
+        <item>@drawable/tab_notify</item>
+    </string-array>
+    <string-array name="ringtone_type">
+        <item>Ringtone call</item>
+        <item>Ringtone message</item>
+        <item>Ringtone notify</item>
+    </string-array>
+
+    <string-array name="ringtone_times">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+    </string-array>
+
+</resources>

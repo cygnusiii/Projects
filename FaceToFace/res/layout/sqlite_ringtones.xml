@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10" >
+
+    <TextView
+        android:id="@+id/rt_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:lines="1"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/rt_path"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:lines="1"
+        android:text="path" />
+
+    <TextView
+        android:id="@+id/rt_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:lines="1"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/rt_time_play"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:lines="1"
+        android:text="time" />
+
+    <CheckBox
+        android:id="@+id/rt_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

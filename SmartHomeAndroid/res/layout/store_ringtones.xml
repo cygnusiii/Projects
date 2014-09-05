@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10" 
+    android:paddingTop="10sp"
+    android:paddingBottom="10sp"
+    android:background="@drawable/list_item_selected">
+	<ImageView 
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:src="@drawable/song_item"
+	    />
+    <TextView
+        android:paddingLeft="20sp"
+        android:id="@+id/rt_store_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:lines="1"
+        android:textSize="20sp"
+        android:text="time" />
+
+	<ImageView 
+	    android:id="@+id/rt_store_image"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:src="@drawable/play"
+	    />
+</LinearLayout>

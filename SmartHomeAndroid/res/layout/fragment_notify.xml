@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="27" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list_notify"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/horizontal_separator"
+            android:dividerHeight="1dp" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_notify"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="18"
+        android:background="@color/chat_background"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

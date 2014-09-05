@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2" 
+        android:padding="10sp">
+
+        <ImageView
+            android:id="@+id/rt_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/add"/>
+
+
+        <ImageView
+            android:id="@+id/rt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/left"
+            android:visibility="gone"/>
+        
+        <TextView 
+            android:id="@+id/rt_title"
+            android:gravity="center_vertical"
+            android:paddingLeft="10sp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ringtone"
+            />
+    </LinearLayout>
+	<TextView 
+	    android:layout_height="1dp"
+	    android:layout_width="match_parent"
+	    android:background="@drawable/horizontal_separator"
+	    />
+    <ListView
+        android:id="@+id/sqlite_ringtones"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"         
+        android:divider="@drawable/horizontal_separator"
+        android:dividerHeight="1dp">
+    </ListView>
+
+    <ListView
+        android:id="@+id/store_ringtones"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:visibility="gone"
+        android:divider="@drawable/horizontal_separator"
+        android:dividerHeight="1dp">
+    </ListView>
+
+</LinearLayout>

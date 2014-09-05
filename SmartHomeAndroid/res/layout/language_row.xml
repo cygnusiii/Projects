@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_item_selected"
+    android:orientation="horizontal"
+    android:padding="10sp"
+    android:weightSum="4" >
+    
+
+    <RadioButton
+        android:id="@+id/language_check"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/language_image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/en" />
+
+    <TextView
+        android:id="@+id/language_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:text="English"
+        android:paddingLeft="10sp"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

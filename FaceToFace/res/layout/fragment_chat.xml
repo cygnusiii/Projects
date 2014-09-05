@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="27" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="18"
+        android:background="@color/chat_background"
+        android:orientation="vertical"
+        android:weightSum="13" >
+
+        <ListView
+            android:id="@+id/list_msg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="11"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:listSelector="#00000000" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/message_bar"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+			<ImageButton
+			    android:src="@drawable/call"
+			    android:id="@+id/bt_call"
+			    android:layout_weight="1"
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_margin="5sp"
+			    android:padding="10sp"
+			    android:background="@drawable/button_blue"
+			    />
+            <EditText
+                android:id="@+id/text_msg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5sp"
+                android:layout_weight="7"
+                android:background="@drawable/message_field"
+                android:hint="Nhập tin nhắn ở đây"
+                android:padding="5sp"
+                android:textColor="@color/textFieldColor" />
+
+            <Button
+                android:id="@+id/send_msg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5sp"
+                android:layout_weight="2"
+                android:background="@drawable/button_blue"
+                android:gravity="center_horizontal|center"
+                android:text="Gửi"
+                android:textColor="#FFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

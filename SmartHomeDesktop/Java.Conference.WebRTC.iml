@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="../../../Java/Community/fm/bin">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="../../../Java/Community/fm.icelink/bin">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.icelink/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.icelink/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="../../../Java/Community/fm.icelink.webrtc/bin">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.icelink.webrtc/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.icelink.webrtc/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="../../../Java/Community/fm.icelink.websync/bin">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.icelink.websync/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.icelink.websync/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="../../../Java/Community/fm.websync/bin">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.websync/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.websync/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="../../../Java/Community/fm.websync.subscribers/bin">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.websync.subscribers/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.websync.subscribers/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+	<orderEntry type="module-library">
+      <library name="../../../Java/Community/fm.websync.chat/bin">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.websync.chat/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Java/Community/fm.websync.chat/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bridj-0.7-20131007.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/bridj-0.7-20131007.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-1.7.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/slf4j-api-1.7.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-nop-1.7.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/slf4j-nop-1.7.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="webcam-capture-0.3.10-RC7.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/webcam-capture-0.3.10-RC7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

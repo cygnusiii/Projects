@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">Smart Home</string>
+    <string name="action_exit">Thoát</string>
+    <string name="action_setting">Cấu hình</string>
+    <string name="version">Phiên bản 1.0</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="ringtone">Nhạc chuông</string>
+    <string name="administrator">Ban quản lý</string>
+     <string name="administrator_notify">Thông báo từ ban quản lý</string>
+    <string name="error_device">Thiết bị chưa được đăng ký</string>
+    <string name="select_ringtone_type">Chọn loại chuông </string>
+
+    <string-array name="settings_name">
+        <item>Ngôn ngữ</item>
+        <item>Nhạc chuông</item>
+    </string-array>
+    <string-array name="settings_image">
+        <item>@drawable/language_item</item>
+        <item>@drawable/ringtone_item</item>
+    </string-array>
+    <string-array name="language_name">
+        <item>Tiếng Anh</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+    <string-array name="language_code">
+        <item>en</item>
+        <item>vi</item>
+    </string-array>
+    <string-array name="language_image">
+        <item>@drawable/en</item>
+        <item>@drawable/vi</item>
+    </string-array>
+
+    <string name="select_ringtone">Chọn nhạc chuông</string>
+    <string name="select_language">Chọn ngôn ngữ</string>
+
+    <string-array name="ringtone_type_image">
+        <item>@drawable/call</item>
+        <item>@drawable/tab_message</item>
+        <item>@drawable/tab_notify</item>
+    </string-array>
+    <string-array name="ringtone_type">
+        <item>Nhạc chuông</item>
+        <item>Nhạc tin nhắn</item>
+        <item>Nhạc thông báo BQL</item>
+    </string-array>
+    <string-array name="ringtone_times">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+    </string-array>
+
+</resources>

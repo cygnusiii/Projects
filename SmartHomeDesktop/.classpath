@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/fm.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/fm.icelink.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/fm.icelink.webrtc.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/fm.icelink.websync.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/fm.websync.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/fm.websync.subscribers.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/fm.websync.chat.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/bridj-0.7-20131007.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-nop-1.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/webcam-capture-0.3.10-RC7.jar"/>
+	<classpathentry kind="lib" path="lib/jcodec-0.1.5.jar"/>
+	<classpathentry kind="lib" path="lib/sqljdbc4-3.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-net-3.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

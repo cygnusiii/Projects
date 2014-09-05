@@ -1,0 +1,1 @@
+arm-linux-androideabi-gcc -shared -mcpu=cortex-a8 -mthumb -mfpu=neon -mfloat-abi=softfp -march=armv7-a -I"/cygdrive/c/Program Files (x86)/Java/jdk1.7.0_45/include" -L../libs/armeabi-v7a -lopus -llog -o ../libs/armeabi-v7a/libopusJNI.so aopus_OpusLibrary.c

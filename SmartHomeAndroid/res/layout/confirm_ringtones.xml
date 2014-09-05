@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_item_selected"
+    android:orientation="horizontal"
+    android:weightSum="3" >
+
+    <ImageButton
+        android:layout_margin="10sp"
+        android:id="@+id/rt_store_call"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/call"
+        android:background="@drawable/button_blue"
+        android:padding="15sp" />
+
+    <ImageButton
+        android:id="@+id/rt_store_message"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/tab_message"
+        android:background="@drawable/button_blue"
+        android:padding="15sp" 
+        android:layout_margin="10sp"/>
+
+    <ImageButton
+        android:layout_margin="10sp"
+        android:id="@+id/rt_store_notify"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/tab_notify"
+        android:background="@drawable/button_blue"
+        android:padding="15sp" />
+
+</LinearLayout>
